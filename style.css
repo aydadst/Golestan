@@ -1,0 +1,1282 @@
+@font-face {
+  font-family: farsi;
+  src: url(./font/iranyekanwebmedium.2d4f96e5.woff);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: farsi;
+}
+nav {
+  width: 100%;
+  padding: 10px 25px 20px 25px;
+  background-image: url(https://www.golestan.com/wp-content/uploads/2023/01/header-back.png);
+}
+div.base {
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+}
+nav > ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 19.5px;
+  padding-right: 50px;
+  margin: 0 39px;
+  list-style: none;
+  direction: rtl;
+}
+nav > ul > li {
+  padding: 13px 20px;
+  border-left: 0.2px solid rgba(163, 166, 168, 0.315);
+}
+nav > ul > li > a {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  text-decoration: none;
+  color: rgb(175, 178, 180);
+}
+nav > ul > li.a > a {
+  color: rgb(255, 255, 255);
+}
+nav > ul > li.b {
+  border: none;
+}
+nav > a > img {
+  position: absolute;
+  right: 7%;
+  top: 40%;
+}
+div.item1 {
+  width: 100%;
+  padding-top: 100px;
+  background-color: #e9e8e8;
+}
+div.item1 > div.asli {
+  margin: 0 175px;
+  background-color: #e9e8e8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+div.item1 > div.asli > div.a {
+  object-fit: cover;
+}
+.animate__animated.animate__fadeInDownBig {
+  animation-duration: 2s;
+}
+div.item1 > div.asli > div.b {
+  width: 45%;
+}
+div.item1 > div.asli > div.b > div {
+  margin-bottom: 21px;
+  margin-top: 20px;
+  text-align: end;
+}
+div.item1 > div.asli > div.b > div > h2 {
+  font-size: 25px;
+  font-weight: 300;
+  line-height: 30px;
+  color: rgb(255, 0, 0);
+}
+div.item1 > div.asli > div.b > div.c {
+  margin-bottom: 21px;
+  text-align: end;
+}
+div.item1 > div.asli > div.b > div.c > h2 {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 20px;
+  color: rgb(88, 89, 91);
+}
+div.item1 > div.asli > div.b > div.d {
+  margin-bottom: 50px;
+  text-align: end;
+}
+div.item1 > div.asli > div.b > div.d > h2 {
+  font-size: 16px;
+  font-weight: 100;
+  color: rgb(137, 137, 137);
+}
+div.item1 > div.asli > div.b > div.e {
+  text-align: end;
+}
+div.item1 > div.asli > div.b > div.e > a {
+  text-decoration: none;
+  padding: 10px 24px;
+  border: 1px solid rgb(200, 200, 200);
+  border-radius: 8px;
+  background-color: white;
+  color: rgb(124, 125, 126);
+}
+div.item1 > div.asli > div.b > div.e > a:hover {
+  background-color: red;
+  color: white;
+  transition: 0.3s ease;
+}
+div.item1 > div.asli > div.b > div.e > a > span {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 15px;
+}
+div.h {
+  padding: 10px;
+}
+.animate__animated.animate__fadeInRightBig {
+  animation-duration: 1.7s;
+}
+div.item2 {
+  margin-top: 30px;
+  padding: 10px;
+}
+div.item2 > div.box1 {
+  margin: 0 315px;
+  padding: 10px;
+}
+div.item2 > div.box1 > h2 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+  color: rgb(255, 0, 0);
+  text-align: end;
+}
+div.item2 > div.box2 {
+  margin: 0 315px;
+  padding: 10px;
+}
+div.item2 > div.box2 > h2 {
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 36px;
+  color: rgb(122, 122, 122);
+  text-align: end;
+}
+div.item2 > div.box2 > h2 > span {
+  color: red;
+}
+div.item2 > div.box3 {
+  margin: 0 315px;
+  padding: 10px;
+}
+div.item2 > div.box3 > h2 {
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 36px;
+  color: rgb(122, 122, 122);
+  text-align: end;
+}
+div.item2 > div.box3 > h2 > span {
+  color: red;
+}
+div.item2 > div.box4 {
+  margin-inline: 315px;
+  margin-top: 50px;
+  padding: 10px;
+}
+div.item2 > div.box4 > h2 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+  color: rgb(255, 0, 0);
+  text-align: end;
+}
+div.item2 > div.box5 > h2 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+  color: rgb(255, 0, 0);
+  text-align: end;
+}
+div.item2 > div.box5 {
+  margin: 0 315px;
+  padding: 10px;
+}
+div.item2 > div.box5 > h2 {
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 36px;
+  color: rgb(122, 122, 122);
+  text-align: end;
+}
+div.item2 > div.box5 > h2 > span {
+  color: red;
+}
+.animate__animated.animate__zoomIn {
+  animation-duration: 1.5s;
+}
+div.item3 {
+  margin-block: 105px;
+  margin-inline: 255px;
+}
+div.item3 > div.all {
+  width: 100%;
+  direction: rtl;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 22px;
+}
+div.item3 > div.all > div.a1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 23%;
+  padding: 10px;
+  border-bottom: 1px solid rgba(74, 74, 74, 0.418);
+}
+div.item3 > div.all > div.a2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 23%;
+  padding: 10px;
+  border-bottom: 1px solid rgba(74, 74, 74, 0.418);
+}
+div.item3 > div.all > div.a3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 23%;
+  padding: 10px;
+  border-bottom: 1px solid rgba(74, 74, 74, 0.418);
+}
+div.item3 > div.all > div.a4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 23%;
+  padding: 10px;
+  border-bottom: 1px solid rgba(74, 74, 74, 0.418);
+}
+div.item3 > div.all > div > img {
+  margin-bottom: 21px;
+}
+div.item3 > div.all > div > p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 27px;
+  margin-bottom: 18px;
+  text-align: center;
+  color: rgb(124, 125, 126);
+}
+div.item4 {
+  position: relative;
+  width: 100%;
+  background-color: #e9d69f;
+}
+div.item4 > img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+div.item4 > div.red {
+  background-color: rgb(237, 28, 36);
+  position: absolute;
+  top: 83.5%;
+  left: 52%;
+}
+div.item4 > div.red > div {
+  padding: 0 17px 0 114px;
+}
+div.item4 > div.red > div > p.a {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 44px;
+  color: rgb(255, 255, 255);
+}
+div.item4 > div.red > div > p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 44px;
+  color: rgb(255, 255, 255);
+  text-align: end;
+}
+div.item4 > div.color {
+  width: 100%;
+  padding-top: 18px;
+  margin-bottom: 20px;
+  background-color: #e9d69f;
+}
+div.h1 {
+  padding: 10px;
+}
+div.item6 {
+  margin-top: 30px;
+  padding: 10px;
+}
+div.item6 > div.contain1 {
+  margin: 0 315px;
+  padding: 10px;
+}
+div.item6 > div.contain1 > h2 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+  color: rgb(255, 0, 0);
+  text-align: end;
+}
+div.item6 > div.contain2 {
+  margin: 0 315px;
+  padding: 10px;
+}
+div.item6 > div.contain2 > p {
+  font-size: 14px;
+  font-weight: 100;
+  line-height: 36px;
+  color: rgb(122, 122, 122);
+  margin-bottom: 20px;
+  text-align: end;
+}
+div.item6 > div.pair {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  direction: rtl;
+  margin: 0 315px;
+  padding: 10px;
+  gap: 5px;
+}
+
+div.item6 > div.pair > div.contain3 {
+  text-align: end;
+}
+div.item6 > div.pair > div.contain3 > a {
+  text-decoration: none;
+  padding: 10px 24px;
+  border: 1px solid rgb(200, 200, 200);
+  border-radius: 8px;
+  background-color: white;
+  color: rgb(124, 125, 126);
+}
+div.item6 > div.pair > div.contain3 > a:hover {
+  background-color: red;
+  color: white;
+  transition: 0.3s ease;
+}
+div.item1 > div.pair > div.contain3 > a > span {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 15px;
+}
+div.item6 > div.pair > div.contain4 {
+  text-align: end;
+}
+div.item6 > div.pair > div.contain4 > a {
+  text-decoration: none;
+  padding: 10px 24px;
+  border: 1px solid rgb(200, 200, 200);
+  border-radius: 8px;
+  background-color: white;
+  color: rgb(124, 125, 126);
+}
+div.item6 > div.pair > div.contain4 > a:hover {
+  background-color: red;
+  color: white;
+  transition: 0.3s ease;
+}
+div.item1 > div.pair > div.contain4 > a > span {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 15px;
+}
+div.item7 {
+  position: relative;
+  width: 100%;
+  background-color: #e9d69f;
+  margin-top: 75px;
+}
+div.item7 > img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+div.item7 > div.red {
+  background-color: rgb(237, 28, 36);
+  position: absolute;
+  top: 83.5%;
+  left: 52%;
+}
+div.item7 > div.red > div {
+  padding: 0 17px 0 114px;
+}
+div.item7 > div.red > div > p.a {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 44px;
+  color: rgb(255, 255, 255);
+}
+div.item7 > div.red > div > p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 44px;
+  color: rgb(255, 255, 255);
+  text-align: end;
+}
+div.item7 > div.color {
+  width: 100%;
+  padding-top: 18px;
+  margin-bottom: 20px;
+  background-color: #e9d69f;
+}
+div.h1 {
+  padding: 10px;
+}
+div.item8 {
+  margin-top: 30px;
+  padding: 10px;
+}
+div.item8 > div.contain5 {
+  margin: 0 315px;
+  padding: 10px;
+}
+div.item8 > div.contain5 > h2 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+  color: rgb(255, 0, 0);
+  text-align: end;
+}
+div.item8 > div.contain6 {
+  margin: 0 315px;
+  padding: 10px;
+}
+div.item8 > div.contain6 > p {
+  font-size: 14px;
+  font-weight: 100;
+  line-height: 36px;
+  color: rgb(122, 122, 122);
+  margin-bottom: 20px;
+  text-align: end;
+}
+div.item8 > div.contain7 {
+  margin: 0 315px;
+  padding: 10px;
+}
+div.item8 > div.contain7 > h2 {
+  font-size: 14px;
+  font-weight: 100;
+  line-height: 36px;
+  color: rgb(122, 122, 122);
+  text-align: end;
+}
+div.item8 > div.contain7 > h2 > span {
+  color: red;
+}
+div.item8 > div.contain8 {
+  text-align: end;
+  margin: 0 315px;
+  padding: 10px;
+  margin-top: 20px;
+}
+div.item8 > div.contain8 > a {
+  text-decoration: none;
+  padding: 10px 24px;
+  border: 1px solid rgb(200, 200, 200);
+  border-radius: 8px;
+  background-color: white;
+  color: rgb(124, 125, 126);
+}
+div.item8 > div.contain8 > a:hover {
+  background-color: red;
+  color: white;
+  transition: 0.3s ease;
+}
+div.item8 > div.contain8 > a > span {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 15px;
+}
+div.item9 {
+  position: relative;
+  width: 100%;
+  background-color: #e9d69f;
+  margin-top: 75px;
+}
+div.item9 > img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+div.item9 > div.red {
+  background-color: rgb(237, 28, 36);
+  position: absolute;
+  top: 83.5%;
+  left: 52%;
+}
+div.item9 > div.red > div {
+  padding: 0 17px 0 114px;
+}
+div.item9 > div.red > div > p.a {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 44px;
+  color: rgb(255, 255, 255);
+}
+div.item9 > div.red > div > p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 44px;
+  color: rgb(255, 255, 255);
+  text-align: end;
+}
+div.item9 > div.color {
+  width: 100%;
+  padding-top: 18px;
+  margin-bottom: 20px;
+  background-color: #e9d69f;
+}
+div.item10 {
+  margin-top: 30px;
+  padding: 10px;
+}
+div.item10 > div.contain9 {
+  margin: 0 315px;
+  padding: 10px;
+}
+div.item10 > div.contain9 > h2 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+  color: rgb(255, 0, 0);
+  text-align: end;
+}
+div.item10 > div.contain10 {
+  margin: 0 315px;
+  padding: 10px;
+}
+div.item10 > div.contain10 > p {
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 36px;
+  color: rgb(122, 122, 122);
+  text-align: end;
+}
+div.item10 > div.contain11 {
+  margin: 0 315px;
+  padding: 10px;
+}
+div.item10 > div.contain11 > h2 {
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 36px;
+  color: rgb(122, 122, 122);
+  text-align: end;
+}
+div.item10 > div.contain11 > h2 > span {
+  color: red;
+}
+div.item10 > div.contain12 {
+  margin-inline: 315px;
+  padding: 10px;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  text-align: end;
+}
+div.item10 > div.contain12 > a {
+  text-decoration: none;
+  padding: 10px 24px;
+  border: 1px solid rgb(200, 200, 200);
+  border-radius: 8px;
+  background-color: white;
+  color: rgb(124, 125, 126);
+}
+div.item10 > div.contain12 > a:hover {
+  background-color: red;
+  color: white;
+  transition: 0.3s ease;
+}
+div.item10 > div.contain12 > a > span {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 15px;
+}
+div.item11 {
+  width: 1351px;
+  height: 250px;
+  background-image: url(https://www.golestan.com/wp-content/uploads/2023/01/recipe-baner-1.png);
+  background-position-x: 50%;
+  background-position-y: 50%;
+}
+div.contain13 > h2 {
+  margin: 40px 0;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  color: rgb(255, 0, 0);
+  text-align: end;
+}
+div.item12 {
+  padding: 4px 0;
+  background-color: #cde4b0;
+}
+div.item12 > div.kol {
+  margin: 75px 175px;
+  padding: 10px;
+  direction: rtl;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+div.item12 > div.kol > div.a {
+  width: 31%;
+  background-color: white;
+}
+div.item12 > div.kol > div.b {
+  width: 31%;
+  background-color: white;
+}
+div.item12 > div.kol > div.c {
+  width: 31%;
+  background-color: white;
+}
+div.item12 > div.kol > div.a > a > img {
+  margin-bottom: 11px;
+  width: 100%;
+}
+div.item12 > div.kol > div.b > a > img {
+  margin-bottom: 11px;
+  width: 100%;
+}
+div.item12 > div.kol > div.c > a > img {
+  margin-bottom: 11px;
+  width: 100%;
+}
+div.item12 > div.kol > div.a > div.matn {
+  padding: 22px;
+  background-color: white;
+}
+div.item12 > div.kol > div.a > div.matn > div.bold {
+  margin-bottom: 18px;
+}
+div.item12 > div.kol > div.a > div.matn > div.bold > a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 28px;
+  color: rgb(255, 0, 0);
+}
+div.item12 > div.kol > div.b > div.matn {
+  padding: 22px;
+  background-color: white;
+}
+div.item12 > div.kol > div.b > div.matn > div.bold {
+  margin-bottom: 18px;
+}
+div.item12 > div.kol > div.b > div.matn > div.bold > a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 28px;
+  color: rgb(255, 0, 0);
+}
+div.item12 > div.kol > div.c > div.matn {
+  padding: 22px;
+  background-color: white;
+}
+div.item12 > div.kol > div.c > div.matn > div.bold {
+  margin-bottom: 18px;
+}
+div.item12 > div.kol > div.c > div.matn > div.bold > a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 28px;
+  color: rgb(255, 0, 0);
+}
+div.item12 > div.kol > div.a > div.matn > div.bold2 {
+  margin-bottom: 60px;
+}
+div.item12 > div.kol > div.a > div.matn > div.bold2 > p {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 100;
+  line-height: 30px;
+  color: rgb(124, 125, 126);
+}
+div.item12 > div.kol > div.b > div.matn > div.bold2 {
+  margin-bottom: 60px;
+}
+div.item12 > div.kol > div.b > div.matn > div.bold2 > p {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 100;
+  line-height: 30px;
+  color: rgb(124, 125, 126);
+}
+div.item12 > div.kol > div.c > div.matn > div.bold2 {
+  margin-bottom: 60px;
+}
+div.item12 > div.kol > div.c > div.matn > div.bold2 > p {
+  margin-bottom: 20px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 100;
+  line-height: 30px;
+  color: rgb(124, 125, 126);
+}
+div.item12 > div.kol > div.a > div.matn > div.d > a {
+  text-decoration: none;
+  padding: 10px 24px;
+  border: 1px solid rgb(200, 200, 200);
+  border-radius: 8px;
+  background-color: white;
+  color: rgb(124, 125, 126);
+}
+div.item12 > div.kol > div.a > div.matn > div.d > a:hover {
+  background-color: red;
+  color: white;
+  transition: 0.3s ease;
+}
+div.item12 > div.kol > div.a > div.matn > div.d > a > span {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 15px;
+}
+div.item12 > div.kol > div.b > div.matn > div.d > a {
+  text-decoration: none;
+  padding: 10px 24px;
+  border: 1px solid rgb(200, 200, 200);
+  border-radius: 8px;
+  background-color: white;
+  color: rgb(124, 125, 126);
+}
+div.item12 > div.kol > div.b > div.matn > div.d > a:hover {
+  background-color: red;
+  color: white;
+  transition: 0.3s ease;
+}
+div.item12 > div.kol > div.b > div.matn > div.d > a > span {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 15px;
+}
+div.item12 > div.kol > div.c > div.matn > div.d > a {
+  text-decoration: none;
+  padding: 10px 24px;
+  border: 1px solid rgb(200, 200, 200);
+  border-radius: 8px;
+  background-color: white;
+  color: rgb(124, 125, 126);
+}
+div.item12 > div.kol > div.c > div.matn > div.d > a:hover {
+  background-color: red;
+  color: white;
+  transition: 0.3s ease;
+}
+div.item12 > div.kol > div.c > div.matn > div.d > a > span {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 15px;
+}
+div.item13 {
+  margin: 50px 0;
+  padding: 10px;
+}
+div.item13 > div.all {
+  height: 449px;
+  margin: 0 165px;
+  padding: 0 10px;
+  direction: rtl;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+div.item13 > div.all > div.a {
+  width: 31%;
+  height: 100%;
+  box-shadow: -1px 1px 5px rgb(158, 158, 158);
+  background-color: white;
+}
+div.item13 > div.all > div.b {
+  width: 31%;
+  height: 100%;
+  box-shadow: -1px 1px 5px rgb(158, 158, 158);
+  background-color: white;
+}
+div.item13 > div.all > div.c {
+  width: 31%;
+  height: 100%;
+  box-shadow: -1px 1px 5px rgb(158, 158, 158);
+  background-color: white;
+}
+div.item13 > div.all > div.a > a > video {
+  margin-bottom: 11px;
+  width: 100%;
+  height: 38%;
+}
+div.item13 > div.all > div.b > a > video {
+  margin-bottom: 11px;
+  width: 100%;
+}
+div.item13 > div.all > div.c > a > video {
+  margin-bottom: 11px;
+  width: 100%;
+}
+div.item13 > div.all > div.a > div.txt > div.main {
+  margin-bottom: 18px;
+}
+div.item13 > div.all > div.a > div.txt > div.main > a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 28px;
+  color: rgb(255, 0, 0);
+}
+div.item13 > div.all > div.a > div.txt > div.main2 {
+  margin-bottom: 40px;
+}
+div.item13 > div.all > div.a > div.txt > div.main2 > p {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 100;
+  line-height: 30px;
+  color: rgb(124, 125, 126);
+}
+div.item13 > div.all > div.a > div.txt > div.v > a {
+  text-decoration: none;
+  padding: 10px 24px;
+  border: 1px solid rgb(200, 200, 200);
+  border-radius: 8px;
+  background-color: white;
+  color: rgb(124, 125, 126);
+}
+div.item13 > div.all > div.a > div.txt > div.v > a:hover {
+  background-color: red;
+  color: white;
+  transition: 0.3s ease;
+}
+div.item13 > div.all > div.a > div.txt > div.v > a > span {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 15px;
+}
+
+div.item13 > div.all > div.b > div.txt > div.main {
+  margin-bottom: 18px;
+}
+div.item13 > div.all > div.b > div.txt > div.main > a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 28px;
+  color: rgb(255, 0, 0);
+}
+div.item13 > div.all > div.b > div.txt > div.main2 {
+  margin-bottom: 40px;
+}
+div.item13 > div.all > div.b > div.txt > div.main2 > p {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 100;
+  line-height: 30px;
+  color: rgb(124, 125, 126);
+}
+div.item13 > div.all > div.b > div.txt > div.v > a {
+  text-decoration: none;
+  padding: 10px 24px;
+  border: 1px solid rgb(200, 200, 200);
+  border-radius: 8px;
+  background-color: white;
+  color: rgb(124, 125, 126);
+}
+div.item13 > div.all > div.b > div.txt > div.v > a:hover {
+  background-color: red;
+  color: white;
+  transition: 0.3s ease;
+}
+div.item13 > div.all > div.b > div.txt > div.v > a > span {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 15px;
+}
+
+div.item13 > div.all > div.c > div.txt > div.main {
+  margin-bottom: 18px;
+}
+div.item13 > div.all > div.c > div.txt > div.main > a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 28px;
+  color: rgb(255, 0, 0);
+}
+div.item13 > div.all > div.c > div.txt > div.main2 {
+  margin-bottom: 40px;
+}
+div.item13 > div.all > div.c > div.txt > div.main2 > p {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 100;
+  line-height: 30px;
+  color: rgb(124, 125, 126);
+}
+div.item13 > div.all > div.c > div.txt > div.v > a {
+  text-decoration: none;
+  padding: 10px 24px;
+  border: 1px solid rgb(200, 200, 200);
+  border-radius: 8px;
+  background-color: white;
+  color: rgb(124, 125, 126);
+}
+div.item13 > div.all > div.c > div.txt > div.v > a:hover {
+  background-color: red;
+  color: white;
+  transition: 0.3s ease;
+}
+div.item13 > div.all > div.c > div.txt > div.v > a > span {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 15px;
+}
+div.item14 {
+  width: 100%;
+  height: 600px;
+  background-color: #105153;
+  margin-top: 50px;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+div.item14 > div.bala {
+  width: 100%;
+  position: relative;
+  background-color: #105153;
+}
+div.item14 > div.bala > h2.a {
+  font-size: 18px;
+  font-weight: 100;
+  line-height: 35px;
+  color: rgb(213, 236, 225);
+  text-align: center;
+  padding: 10px;
+  border-bottom: 0.1px solid rgb(213, 236, 225);
+}
+div.item14 > div.bala > div.c {
+  text-align: center;
+}
+div.item14 > div.bala > div.c > span.c1 {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 54px;
+  color: rgb(0, 157, 162);
+}
+div.item14 > div.bala > div.c > span.c2 {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 36px;
+  color: rgb(0, 216, 223);
+}
+div.item14 > div.bala > h2.b {
+  font-size: 17px;
+  font-weight: 100;
+  line-height: 17px;
+  color: rgb(188, 190, 192);
+  text-align: center;
+}
+div.item14 > img {
+  position: absolute;
+  top: 62%;
+}
+div.plus {
+  width: 100%;
+  padding-bottom: 20px;
+  background-color: #e9d69f;
+}
+div.item15 {
+  margin-top: 90px;
+  padding: 10px;
+}
+div.item15 > div.contain14 {
+  margin: 0 315px;
+  padding: 10px;
+}
+div.item15 > div.contain14 > h2 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+  color: rgb(255, 0, 0);
+  text-align: end;
+}
+div.item15 > div.contain15 {
+  margin: 0 315px;
+  padding: 10px;
+}
+div.item15 > div.contain15 > p {
+  font-size: 14px;
+  font-weight: 100;
+  line-height: 36px;
+  color: rgb(122, 122, 122);
+  margin-bottom: 20px;
+  text-align: end;
+}
+div.item15 > div.contain15 > p > span {
+  color: red;
+}
+div.item15 > div.contain16 {
+  text-align: end;
+  margin: 0 315px;
+  padding: 10px;
+  margin-top: 20px;
+}
+div.item15 > div.contain16 > a {
+  text-decoration: none;
+  padding: 10px 24px;
+  border: 1px solid rgb(200, 200, 200);
+  border-radius: 8px;
+  background-color: white;
+  color: rgb(124, 125, 126);
+}
+div.item15 > div.contain16 > a:hover {
+  background-color: red;
+  color: white;
+  transition: 0.3s ease;
+}
+div.item15 > div.contain16 > a > span {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 15px;
+}
+div.item16 {
+  width: 100%;
+  margin-top: 70px;
+}
+div.item16 > div.icon {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  direction: rtl;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(221, 221, 221);
+  gap: 5px;
+}
+div.item16 > div.icon > * {
+  margin-bottom: 10px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(74, 74, 74, 0.322);
+  border-radius: 50%;
+}
+div.item16 > div.icon > a.a:hover {
+  background-color: #7c95c9;
+  transition: all 0.3s ease;
+}
+div.item16 > div.icon > a.b:hover {
+  background-color: #43a2d2;
+  transition: all 0.3s ease;
+}
+div.item16 > div.icon > a.c:hover {
+  background-color: #bf2d2d;
+  transition: all 0.3s ease;
+}
+div.item16 > div.icon > a.d:hover {
+  background-color: #2da6db;
+  transition: all 0.3s ease;
+}
+div.item16 > div.icon > a.e:hover {
+  background-color: #ed3d77;
+  transition: all 0.3s ease;
+}
+div.item16 > div.icon > a.f:hover {
+  background-color: #89c864;
+  transition: all 0.3s ease;
+}
+div.item16 > div.icon > a > * {
+  width: 40px;
+  height: 40px;
+}
+div.footer {
+  width: 100%;
+  padding-top: 25px;
+  background-color: #ed1c24;
+}
+div.item17 {
+  width: 100%;
+  background-image: url(https://www.golestan.com/wp-content/uploads/2023/01/header-back.png);
+}
+div.item17 > div.foot {
+  margin: 0 325px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+  direction: rtl;
+}
+div.item17 > div.foot > div.a {
+  padding: 10px;
+}
+div.item17 > div.foot > div.b {
+  padding: 10px;
+}
+div.item17 > div.foot > div.c {
+  padding: 10px;
+}
+div.item17 > div.foot > div.d {
+  padding: 10px;
+}
+div.item17 > div.foot > div.a > div.x1 {
+  margin-bottom: 21px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div.item17 > div.foot > div.a > div.txt {
+  margin: 21px 0;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}
+div.item17 > div.foot > div.a > div.txt > h2 {
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 16px;
+  padding: 10px;
+  color: rgb(255, 255, 255);
+}
+div.item17 > div.foot > div.b > div.x2 {
+  margin-bottom: 21px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div.item17 > div.foot > div.b > div.txt {
+  margin: 21px 0;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}
+div.item17 > div.foot > div.b > div.txt > h2 {
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 16px;
+  padding: 10px;
+  color: rgb(255, 255, 255);
+}
+div.item17 > div.foot > div.c > div.x3 {
+  margin-bottom: 21px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div.item17 > div.foot > div.c > div.txt {
+  margin: 21px 0;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}
+div.item17 > div.foot > div.c > div.txt > h2 {
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 16px;
+  padding: 10px;
+  color: rgb(255, 255, 255);
+}
+div.item17 > div.foot > div.d > div.x4 {
+  margin-bottom: 21px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div.item17 > div.foot > div.d > div.txt {
+  margin: 21px 0;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}
+div.item17 > div.foot > div.d > div.txt > h2 {
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 16px;
+  padding: 10px;
+  color: rgb(255, 255, 255);
+}
+
+div.item17 > div.foot > div.a > div.list > ul {
+  list-style: none;
+}
+div.item17 > div.foot > div.a > div.list > ul > li > a {
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 100;
+  line-height: 28px;
+  color: rgb(188, 190, 192);
+}
+
+div.item17 > div.foot > div.b > div.list > ul {
+  list-style: none;
+}
+div.item17 > div.foot > div.b > div.list > ul > li > a {
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 100;
+  line-height: 28px;
+  color: rgb(188, 190, 192);
+}
+
+div.item17 > div.foot > div.c > div.list > ul {
+  list-style: none;
+}
+div.item17 > div.foot > div.c > div.list > ul > li > a {
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 100;
+  line-height: 28px;
+  color: rgb(188, 190, 192);
+}
+div.item17 > div.foot > div.d > div.list > ul {
+  list-style: none;
+}
+div.item17 > div.foot > div.d > div.list > ul > li > a {
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 100;
+  line-height: 28px;
+  color: rgb(188, 190, 192);
+}
+div.item17 > div.foot > div.a > div.list > ul > li > a:hover {
+  color: white;
+  transition: 0.3s ease;
+}
+div.item17 > div.foot > div.b > div.list > ul > li > a:hover {
+  color: white;
+  transition: 0.3s ease;
+}
+div.item17 > div.foot > div.c > div.list > ul > li > a:hover {
+  color: white;
+  transition: 0.3s ease;
+}
+div.item17 > div.foot > div.d > div.list > ul > li > a:hover {
+  color: white;
+  transition: 0.3s ease;
+}
+div.item17 > div.end {
+  width: 100%;
+  padding: 10px;
+  margin-top: 30px;
+  margin-bottom: 21px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+div.item17 > div.end > span.a1 {
+  font-size: 15px;
+  font-weight: 400;
+  color: rgb(159, 159, 159);
+}
+div.item17 > div.end > span.a2 {
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 30px;
+  color: rgb(159, 159, 159);
+}
