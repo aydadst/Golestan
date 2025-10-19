@@ -5,15 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./src/tailwind.css" />
     <link rel="stylesheet" href="./animation/animate.min.css" />
   </head>
   <body>
     <div class="base">
       <nav>
-        <a href="#">
-          <img src="./photo/logo-fr.png" alt="" />
-        </a>
-        <ul>
+        <div class="aks">
+          <a href="#">
+            <img src="./photo/logo-fr.png" alt="" class="img" />
+          </a>
+        </div>
+        <div class="md:hidden flex">
+          <input type="checkbox" id="menu-toggle" class="hidden peer" />
+          <label
+            for="menu-toggle"
+            class="cursor-pointer text-3xl text-white ml-auto"
+            >☰</label
+          >
+        </div>
+        <ul
+          class="hidden flex-col mt-2 space-y-2 md:flex md:flex-row md:space-x-4 peer-checked:flex w-full md:w-auto"
+        >
           <li class="a"><a href="#">صفحه اصلی</a></li>
           <li><a href="#">شرکت گلستان</a></li>
           <li><a href="#">محصولات</a></li>
@@ -59,8 +72,8 @@
       <hr />
     </div>
     <div class="item2 animate__animated animate__fadeInRightBig">
-      <div class="box1"><h2>معرفی گلستان</h2></div>
-      <div class="box2">
+      <div class="box1 max-[980px]:!m-0"><h2>معرفی گلستان</h2></div>
+      <div class="box2 max-[980px]:!m-10">
         <h2>
           آنچه که امروز با نام مجموعه <span>گلستان </span> می‌شناسیم در سال 1329
           بنیان نهاده شد. زمانی که شرکت گلستان فعالیت خود را با بسته‌بندی و
@@ -72,7 +85,7 @@
           تولید نماید.
         </h2>
       </div>
-      <div class="box3">
+      <div class="box3 max-[980px]:!m-5">
         <h2>
           هدفمندی و برنامه‌ریزی موثر، ایمان و عزم راسخ برای دستیابی به اهداف
           تعیین شده، به کار گیری همکاران مجرب و دلسوز، استفاده از روش های نوین
@@ -80,8 +93,8 @@
           <span>شرکت گلستان </span> است.
         </h2>
       </div>
-      <div class="box4"><h2>محصولات گلستان​</h2></div>
-      <div class="box5">
+      <div class="box4 max-[980px]:!m-0"><h2>محصولات گلستان​</h2></div>
+      <div class="box5 max-[980px]:!m-10">
         <h2>
           <span>نام تجاری گلستان</span> قدمتی به اندازه عمر شرکت گلستان دارد.
           گلستان ممتازترین محصولات خود را با این نام تجاری عرضه می‌کند.
@@ -91,23 +104,33 @@
         </h2>
       </div>
     </div>
-    <div class="item3 animate__animated animate__zoomIn">
-      <div class="all">
-        <div class="a1">
+    <div class="item3 animate__animated animate__zoomIn max-[1131px]:!mx-0">
+      <div
+        class="all max-[1131px]:!gap-0 max-[384px]:!flex-col max-[384px]:!gap-[15px]"
+      >
+        <div class="a1 max-[384px]:!p-0">
           <img src="./photo/1.png" alt="" />
-          <p>سرمایه انسانی</p>
+          <p class="max-[684px]:!text-[10px] max-[446px]:!text-[8px]">
+            سرمایه انسانی
+          </p>
         </div>
-        <div class="a2">
+        <div class="a1 max-[384px]:!p-0">
           <img src="./photo/2.png" alt="" />
-          <p>مراكز فروش</p>
+          <p class="max-[684px]:!text-[10px] max-[446px]:!text-[8px]">
+            مراكز فروش
+          </p>
         </div>
-        <div class="a3">
+        <div class="a1 max-[384px]:!p-0">
           <img src="./photo/3.png" alt="" />
-          <p>محصولات گلستان</p>
+          <p class="max-[684px]:!text-[10px] max-[446px]:!text-[8px]">
+            محصولات گلستان
+          </p>
         </div>
-        <div class="a4">
+        <div class="a1 max-[384px]:!p-0">
           <img src="./photo/4.png" alt="" />
-          <p>مشتریان گلستان</p>
+          <p class="max-[684px]:!text-[10px] max-[446px]:!text-[8px]">
+            مشتریان گلستان
+          </p>
         </div>
       </div>
     </div>
@@ -129,8 +152,8 @@
       <hr />
     </div>
     <div class="item6">
-      <div class="contain1"><h2>رکن اول غذای ایرانی</h2></div>
-      <div class="contain2">
+      <div class="contain1 max-[980px]:!m-0"><h2>رکن اول غذای ایرانی</h2></div>
+      <div class="contain2 max-[980px]:!m-0">
         <p>
           مرغوب‌ترین برنج دنیا، برنج ایران است و بهترین نوع برنج ایرانی،‌ طارم و
           هاشمی. این برنج‌ها از بهترین شالیزارهای مازندران برداشت شده، پس از
@@ -140,15 +163,17 @@
           همیشه است چرا كه مشتریان گلستان؛‌ لایق بهترین‌ها هستند.
         </p>
       </div>
-      <div class="pair">
+      <div
+        class="pair max-[980px]:!m-0 max-[273px]:!flex max-[273px]:!flex-col-reverse max-[273px]:!gap-[30px]"
+      >
         <div class="contain3">
-          <a href="#">
-            <span>محصولات برنج</span>
+          <a href="#" class="max-[360px]:!p-2">
+            <span class="max-[360px]:!text-[14px]">محصولات برنج</span>
           </a>
         </div>
         <div class="contain4">
-          <a href="#">
-            <span>آشپزخانه گلستان</span>
+          <a href="#" class="max-[360px]:!p-2">
+            <span class="max-[360px]:!text-[14px]">آشپزخانه گلستان</span>
           </a>
         </div>
       </div>
@@ -164,8 +189,10 @@
       <div class="color"></div>
     </div>
     <div class="item8">
-      <div class="contain5"><h2>سابقه‌ای به قدمت یک عمر</h2></div>
-      <div class="contain6">
+      <div class="contain5 max-[980px]:!m-0">
+        <h2>سابقه‌ای به قدمت یک عمر</h2>
+      </div>
+      <div class="contain6 max-[980px]:!m-0">
         <p>
           چای تنها یك نوشیدنی گرم نیست.‌ یک گفتمان است؛‌ گرمابخش وجود و بهانه‌ای
           برای آغاز یك معاشرت دل‌چسب. بی‌دلیل نیست كه نام «محبوب‌ترین نوشیدنی
@@ -173,7 +200,7 @@
           آرامش را به همراه دارد.
         </p>
       </div>
-      <div class="contain7">
+      <div class="contain7 max-[980px]:!m-0">
         <h2>
           برای مردمان ایران زمین نام <span>گلستان </span> با چای پیوند خورده
           است؛‌ قدیمی‌ترین محصول مجموعه گلستان،‌ با مدرن‌ترین و بهداشتی‌ترین
@@ -182,7 +209,7 @@
           است.
         </h2>
       </div>
-      <div class="contain8">
+      <div class="contain8 max-[980px]:!m-0">
         <a href="#">
           <span>محصولات چای</span>
         </a>
@@ -202,14 +229,14 @@
       <hr />
     </div>
     <div class="item10">
-      <div class="contain9"><h2>آجيل‌های خوش خنده</h2></div>
-      <div class="contain10">
+      <div class="contain9 max-[980px]:!m-0"><h2>آجيل‌های خوش خنده</h2></div>
+      <div class="contain10 max-[980px]:!m-0">
         <p>
           خواص فوق‌العاده پسته بر كسی پوشیده نیست. پسته را منبع ویتامین و مواد
           معدنی می‌نامند، یك پمپ خون‌ساز قوی و تسكین دهنده قلب و اعصاب.
         </p>
       </div>
-      <div class="contain11">
+      <div class="contain11 max-[980px]:!m-0">
         <h2>
           <span>پسته گلستان</span> اما حسابش از دیگر پسته‌های بازار جداست.
           مرغوب‌ترین پسته خام از بهترین باغ‌های پسته ایران دستچین می‌شود.‌ پس از
@@ -218,7 +245,7 @@
           بی‌نظیر به ارمغان می‌آورد.
         </h2>
       </div>
-      <div class="contain12">
+      <div class="contain12 max-lg:!m-0">
         <a href="#">
           <span>ناتس گلستان</span>
         </a>
@@ -226,8 +253,8 @@
     </div>
     <div class="contain13"><h2>مجله گلستان</h2></div>
     <div class="item12">
-      <div class="kol">
-        <div class="a">
+      <div class="kol max-[1022px]:!m-0 max-[770px]:!flex-col-reverse">
+        <div class="a max-[1023px]:hidden">
           <a href="#"><img src="./photo/recipe-pic2.jpg" alt="" /></a>
           <div class="matn">
             <div class="bold">
@@ -235,9 +262,9 @@
             </div>
             <div class="bold2">
               <p>
-                ابتدا ماکارانی‌ها را در ظرفی‌ به‌ همراه‌ آب‌، روغن‌ مایع‌ و نمک‌
-                می‌ریزیم‌ تا کمی‌ بپزد. در این‌ حین‌ پیازها را خرد کرده‌ و روی‌
-                روغن‌ تفت‌ می‌دهیم‌ تا طلایی‌ شود…
+                ابتدا ماکارانی را در ظرفی‌ به‌ همراه‌ آب‌، روغن‌ مایع‌ و نمک‌
+                می‌ریزیم‌ تا کمی‌ بپزد در این‌ حین‌ پیازها را خرد کرده‌ روی‌
+                روغن‌ تفت‌ می‌دهیم‌ تا طلایی‌ شود
               </p>
             </div>
             <div class="d">
@@ -247,7 +274,7 @@
             </div>
           </div>
         </div>
-        <div class="b">
+        <div class="a max-[768px]:!w-[80%]">
           <a href="#"><img src="./photo/recipe-pic3.jpg" alt="" /></a>
           <div class="matn">
             <div class="bold">
@@ -257,7 +284,7 @@
               <p>
                 گوشت بوقلمون را در یک ماهیتابه بزرگ ریخته، آب روی آن بریزید تا
                 روی آن را بپوشاند و به مدت نیم ساعت آن را بپزید. گوشت را از مایع
-                آن بیرون آورده…
+                بیرون آورده
               </p>
             </div>
             <div class="d">
@@ -267,7 +294,7 @@
             </div>
           </div>
         </div>
-        <div class="c">
+        <div class="a max-[768px]:!w-[80%]">
           <a href="#"
             ><img src="./photo/recipe-pic-Chilakile-1401.jpg" alt=""
           /></a>
@@ -279,7 +306,7 @@
               <p>
                 احتمالا نام چیلا کیله را نشنیده باشید ولی اگر یکبار این غذای
                 فوق‌العاده خوشمزه را تهیه کنید و نوش جان کنید جزئی جدانشدنی از
-                فهرست
+                فهرست حتمالا نام
               </p>
             </div>
             <div class="d">
@@ -292,35 +319,13 @@
       </div>
     </div>
 
-    <div class="item13">
-      <div class="all">
-        <div class="a">
-          <a href="#"
-            ><video
-              src="./video/5af0d143bb02d3da97b478c3452087725839414-270p.mp4"
-              controls
-              muted
-            ></video
-          ></a>
-          <div class="txt">
-            <div class="main">
-              <a href="#"><h3>سالاد نودل</h3></a>
-            </div>
-            <div class="main2">
-              <p>
-                نودل هاتی کارا یك میان‌وعده‌ی مغذی، در هر موقعیتی كه باشید با
-                كمی آب جوش و یك نودل هاتی‌كارا می‌توانید از یك غذای سالم و
-                خوشمزه لذت ببرید.
-              </p>
-            </div>
-            <div class="v">
-              <a href="#">
-                <span>ویدیوهای بیشتر</span>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="b">
+    <div class="item13 max-[980px]:!m-0 !pb-20 !pt-20">
+      <div
+        class="all max-[1023px]:!m-0 max-[690px]:flex-col max-[690px]:!gap-10 max-[690px]:!h-[1000px]"
+      >
+        <div
+          class="b max-[1023px]:!w-[40%] max-[690px]:!w-[90%] 2xl:!w-[20%] max-[470px]:!pb-0 max-[368px]:!h-[400px] max-[512px]:!h-[500px] max-[473px]:!h-[450px] 2xl:!h-[500px]"
+        >
           <a href="#"
             ><video
               src="./video/08e5de20749d04ceee09732d550724dd5839467-270p.mp4"
@@ -330,23 +335,54 @@
           ></a>
           <div class="txt">
             <div class="main">
-              <a href="#"><h3>اینستاگرام هاتی نودل</h3></a>
+              <a href="#" class="max-[980px]:!text-[12px]"
+                ><h3>سالاد نودل</h3></a
+              >
             </div>
             <div class="main2">
-              <p>
-                نودل‌های هاتی كارا را می‌توان جایگزین سالمی برای غذاهای فست‌فودی
-                دانست. طعم عالی،‌ ارزش غذایی بالا و قیمت مناسب از این محصول غذای
-                سالم و كاملی ساخته است.
+              <p class="max-[980px]:!text-[11px] !px-2">
+                نودل هاتی کارا یك میان‌وعده‌ی مغذی، در هر موقعیتی كه باشید با
+                كمی آب جوش و یك نودل هاتی‌كارا می‌توانید از یك غذای سالم و
+                خوشمزه لذت ببرید.
               </p>
             </div>
             <div class="v">
-              <a href="#">
-                <span>ادامه مطلب</span>
+              <a href="#" class="max-[980px]:!p-1 !mr-3">
+                <span class="max-[980px]:!text-[10px]">ویدیوهای بیشتر</span>
               </a>
             </div>
           </div>
         </div>
-        <div class="c">
+        <div
+          class="b max-[1023px]:!w-[40%] 2xl:!w-[20%] max-[690px]:!w-[90%] max-[470px]:!pb-0 max-[368px]:!h-[400px] max-[512px]:!h-[500px] max-[473px]:!h-[450px] 2xl:!h-[500px]"
+        >
+          <a href="#"
+            ><video
+              src="./video/08e5de20749d04ceee09732d550724dd5839467-270p.mp4"
+              controls
+              muted
+            ></video
+          ></a>
+          <div class="txt">
+            <div class="main">
+              <a href="#" class="max-[980px]:!text-[12px]"
+                ><h3>اینستاگرام هاتی</h3></a
+              >
+            </div>
+            <div class="main2">
+              <p class="max-[980px]:!text-[11px] !px-2">
+                نودل‌های هاتی كارا را می‌توان جایگزین سالمی برای غذاهای فست‌فودی
+                دانست. طعم عالی،‌ ارزش غذایی بالا از این محصول غذای سالم.
+              </p>
+            </div>
+            <div class="v">
+              <a href="#" class="max-[980px]:!p-1 !mr-5">
+                <span class="max-[980px]:!text-[10px]">ادامه مطلب</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="c max-[1025px]:hidden 2xl:!w-[20%] 2xl:!h-[500px]">
           <a href="#"
             ><video
               src="./video/b3de04d37ace2ed2d5008f7f359c50d51660793.mp4"
@@ -356,18 +392,20 @@
           ></a>
           <div class="txt">
             <div class="main">
-              <a href="#"><h3>برنج گلستان</h3></a>
+              <a href="#" class="max-[980px]:!text-[12px]"
+                ><h3>برنج گلستان</h3></a
+              >
             </div>
             <div class="main2">
-              <p>
+              <p class="max-[980px]:!text-[11px] !px-2">
                 عطر و طعم بی‌نظیر برنج گلستان با هیچ برنج دیگری قابل مقایسه
-                نیست. با گلستان،‌ كیفیت زندگی بالاتر از همیشه است. چرا كه
-                مشتریان گلستان؛‌ لایق بهترین ها هستند.
+                نیست. با گلستان،‌ كیفیت زندگی بالاتر از همیشه است. مشتریان
+                گلستان؛‌
               </p>
             </div>
             <div class="v">
-              <a href="#">
-                <span>مشاهده محصولات</span>
+              <a href="#" class="max-[980px]:!p-1 !mr-2">
+                <span class="max-[980px]:!text-[10px]">مشاهده محصولات</span>
               </a>
             </div>
           </div>
@@ -392,8 +430,10 @@
     </div>
 
     <div class="item15">
-      <div class="contain14"><h2>مسئوليت‌های اجتماعی گلستان</h2></div>
-      <div class="contain15">
+      <div class="contain14 max-[980px]:!m-0">
+        <h2>مسئوليت‌های اجتماعی گلستان</h2>
+      </div>
+      <div class="contain15 max-[980px]:!m-0">
         <p>
           كسب‌وكارها اجزای قدرتمند جامعه به شمار می‌آیند و موفق‌ترین،
           قابل‌احترام‌ترین و مطلوب‌ترین كسب‌وكارها آنهایی هستند كه كاری فراتر از
@@ -403,8 +443,8 @@
           فعالیت‌های عام‌المنفعه را در دستوركار خود قرار داده است.
         </p>
       </div>
-      <div class="contain16">
-        <a href="#">
+      <div class="contain16 max-[980px]:!m-0">
+        <a href="#" class="max-[980px]:!p-1">
           <span>اطلاعات بیشتر</span>
         </a>
       </div>
@@ -433,7 +473,7 @@
     </div>
     <div class="footer">
       <div class="item17">
-        <div class="foot">
+        <div class="foot max-[980px]:!m-0 max-[766px]:!flex-col">
           <div class="a">
             <div class="x1"><img src="./photo/footer-icon1.png" alt="" /></div>
             <div class="txt"><h2>چای گلستان</h2></div>
